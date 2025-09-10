@@ -1,6 +1,6 @@
 # python_project
 
-## Pan-Man game 
+## Pac-Man game 
 
 ### library
 - pygmae
