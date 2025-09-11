@@ -1,7 +1,6 @@
-from main_game import *
+from default import *
 import pygame, sys
 
-pygame.init()
 class draw_main_menu:
   def menu():
     while True:
