@@ -1,19 +1,20 @@
 import pygame, sys
-from main_menu import menu
+from main_menu import menu_draw
 from default import *
 
 pygame.init()
 pygame.font.init()
+
 #메인 함수
 def main():
     global running
     while running:
-        #FPS 설정
+        #FPS setting 
         clock.tick(30)
-        # 각종 입력 감지
+        # key event
         for event in pygame.event.get():
             if game_state == "Start Menu":
-                menu()
+                menu_draw()
             if event.type == pygame.QUIT:
                 pygame.quit()
                 running = False
